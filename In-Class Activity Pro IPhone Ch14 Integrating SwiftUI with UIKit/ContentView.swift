@@ -6,16 +6,18 @@
 //
 
 import SwiftUI
-
+import PDFKit
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(){
+            PDFView()
+                .tabItem{Label("PDF", systemImage: "doc.fill")}
+                .toolbarBackground(.visible, for: .tabBar)
+            
+            WebView()
+                .tabItem{Label("Web", systemImage: "globe")}
+                .toolbarBackground(.visible, for: .tabBar)
         }
-        .padding()
     }
 }
 

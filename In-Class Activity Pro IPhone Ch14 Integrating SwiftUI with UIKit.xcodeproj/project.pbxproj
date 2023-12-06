@@ -11,6 +11,9 @@
 		3F6BC5F52B1EA9DC0084F05B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC5F42B1EA9DC0084F05B /* ContentView.swift */; };
 		3F6BC5F72B1EA9DE0084F05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6BC5F62B1EA9DE0084F05B /* Assets.xcassets */; };
 		3F6BC5FA2B1EA9DE0084F05B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6BC5F92B1EA9DE0084F05B /* Preview Assets.xcassets */; };
+		3F6BC6012B1EAAB30084F05B /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC6002B1EAAB30084F05B /* PDFView.swift */; };
+		3F6BC6032B1EAAC20084F05B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC6022B1EAAC20084F05B /* WebView.swift */; };
+		3F6BC6092B1EB3F00084F05B /* PanitzSyllabus.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F6BC6082B1EB3F00084F05B /* PanitzSyllabus.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		3F6BC5F42B1EA9DC0084F05B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F6BC5F62B1EA9DE0084F05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6BC5F92B1EA9DE0084F05B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F6BC6002B1EAAB30084F05B /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		3F6BC6022B1EAAC20084F05B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3F6BC6082B1EB3F00084F05B /* PanitzSyllabus.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PanitzSyllabus.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			children = (
 				3F6BC5F22B1EA9DC0084F05B /* In_Class_Activity_Pro_IPhone_Ch14_Integrating_SwiftUI_with_UIKitApp.swift */,
 				3F6BC5F42B1EA9DC0084F05B /* ContentView.swift */,
+				3F6BC6002B1EAAB30084F05B /* PDFView.swift */,
+				3F6BC6022B1EAAC20084F05B /* WebView.swift */,
 				3F6BC5F62B1EA9DE0084F05B /* Assets.xcassets */,
+				3F6BC6082B1EB3F00084F05B /* PanitzSyllabus.pdf */,
 				3F6BC5F82B1EA9DE0084F05B /* Preview Content */,
 			);
 			path = "In-Class Activity Pro IPhone Ch14 Integrating SwiftUI with UIKit";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6BC6092B1EB3F00084F05B /* PanitzSyllabus.pdf in Resources */,
 				3F6BC5FA2B1EA9DE0084F05B /* Preview Assets.xcassets in Resources */,
 				3F6BC5F72B1EA9DE0084F05B /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6BC6012B1EAAB30084F05B /* PDFView.swift in Sources */,
+				3F6BC6032B1EAAC20084F05B /* WebView.swift in Sources */,
 				3F6BC5F52B1EA9DC0084F05B /* ContentView.swift in Sources */,
 				3F6BC5F32B1EA9DC0084F05B /* In_Class_Activity_Pro_IPhone_Ch14_Integrating_SwiftUI_with_UIKitApp.swift in Sources */,
 			);
